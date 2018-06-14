@@ -48,8 +48,6 @@ is used to run both client and server simulataneously.
 
 App is deployed on heroku - https://serene-wildwood-48095.herokuapp.com and using the react build deployment
 
-Note- Maps are not displayed on heroku because of google map apikey unavailability.
-
 Client structure:
 Public/index.html is the starting point of the application.
 Packages used:
