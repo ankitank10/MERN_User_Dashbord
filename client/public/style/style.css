@@ -1,0 +1,75 @@
+/* Global Styling */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 50px 100px;
+    padding: 50px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Arsenal', sans-serif;
+    background: lightgray;
+}
+
+.user-dashboard {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+
+.button {
+    background-color: black;
+    border: 1px solid darkgray;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+h4 {
+    margin: 10px;
+}
+
+.detailsDiv {
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    height: 220px;
+    padding: 10px 20px;
+}
+
+.detailsDiv label {
+    display: inline-block;
+    margin: 10px;
+}
+
+.detailsDiv label input[type="text"] {
+    margin-left: 150px;
+}
+
+.detailsDiv label select {
+    margin-left: 150px;
+}
+
+.contractDiv {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.border-thick {
+    clear: both;
+}
